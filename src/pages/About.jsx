@@ -1,4 +1,3 @@
-import React from "react";
 import "../assets/styles/About.css";
 import Logo from "../assets/sneakology.svg";
 
