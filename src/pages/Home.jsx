@@ -3,6 +3,7 @@ import ShoesCollection from "../components/ShoesCollection";
 import Footer from "../components/Footer";
 import "../assets/styles/Home.css";
 
+
 const Home = () => {
   return (
     <>

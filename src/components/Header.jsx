@@ -1,5 +1,5 @@
 import React from "react";
-import "../components/Header.css";
+import "../assets/styles/Header.css";
 import { Button, Card, Image } from "antd";
 import Logo from "../assets/sneakology.svg";
 import "animate.css";
@@ -13,9 +13,7 @@ const Header = () => {
         <p className="logo-name">Sneakology</p>
       </div>
 
-      {/* <h1 className="animate__animated animate__backOutUp">
-        An animated element
-      </h1> */}
+  
 
       <nav>
         <a href="/">

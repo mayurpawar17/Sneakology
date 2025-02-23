@@ -1,0 +1,64 @@
+/* .shoes-container {
+  padding: 1%;
+}
+h1 {
+  margin: 1%;
+  font-family: Raleway;
+}
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+} */
+
+
+.shoes-container {
+  padding: 1%; /* Default padding for desktop */
+}
+
+h1 {
+  margin: 1%; /* Default margin for desktop */
+  font-family: Raleway, sans-serif;
+  font-size: 2rem; /* Default font size for desktop */
+  text-align: center; /* Center the heading */
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Default gap for desktop */
+}
+
+/* Mobile screen (up to 480px) */
+@media (max-width: 480px) {
+  .shoes-container {
+    padding: 2%; /* Increase padding for better spacing on mobile */
+  }
+  h1 {
+    font-size: 1.5rem; /* Smaller font size for mobile */
+    margin: 2% 0; /* Adjust margin for better spacing */
+  }
+  .sub-container {
+    gap: 10px; /* Reduce gap for better spacing on mobile */
+  }
+}
+
+/* Tablet screen (481px to 1024px) */
+@media (min-width: 481px) and (max-width: 1024px) {
+  .shoes-container {
+    padding: 1.5%; /* Adjust padding for tablets */
+  }
+  h1 {
+    font-size: 1.8rem; /* Slightly smaller font size for tablets */
+    margin: 1.5% 0; /* Adjust margin for better spacing */
+  }
+  .sub-container {
+    gap: 15px; /* Adjust gap for tablets */
+  }
+}

@@ -1,0 +1,66 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 40vh; /* Default height for desktop */
+  margin-top: 9%; /* Default margin for desktop */
+  padding-inline: 1%; /* Default padding for desktop */
+  gap: 2vh; /* Default gap for desktop */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.tagline {
+  font-family: Raleway, sans-serif;
+  font-size: 2.5rem; /* Default font size for desktop */
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 2%; /* Default margin for desktop */
+}
+
+.copyright {
+  margin-top: 2vh; /* Default margin for desktop */
+  text-align: center;
+  font-weight: 500;
+  font-family: Raleway, sans-serif;
+}
+
+span {
+  font-weight: bolder;
+}
+
+/* Mobile screen (up to 480px) */
+@media (max-width: 480px) {
+  footer {
+    height: 30vh; /* Reduce height for mobile */
+    margin-top: 5%; /* Adjust margin for better spacing */
+    padding-inline: 2%; /* Increase padding for better spacing */
+    gap: 1vh; /* Reduce gap for better spacing */
+  }
+  .tagline {
+    font-size: 1.8rem; /* Smaller font size for mobile */
+    margin-top: 5%; /* Adjust margin for better spacing */
+  }
+  .copyright {
+    margin-top: 1vh; /* Adjust margin for better spacing */
+    font-size: 0.9rem; /* Smaller font size for mobile */
+  }
+}
+
+/* Tablet screen (481px to 1024px) */
+@media (min-width: 481px) and (max-width: 1024px) {
+  footer {
+    height: 35vh; /* Adjust height for tablets */
+    margin-top: 7%; /* Adjust margin for better spacing */
+    padding-inline: 1.5%; /* Adjust padding for tablets */
+    gap: 1.5vh; /* Adjust gap for tablets */
+  }
+  .tagline {
+    font-size: 2rem; /* Slightly smaller font size for tablets */
+    margin-top: 3%; /* Adjust margin for better spacing */
+  }
+  .copyright {
+    margin-top: 1.5vh; /* Adjust margin for better spacing */
+    font-size: 1rem; /* Slightly smaller font size for tablets */
+  }
+}

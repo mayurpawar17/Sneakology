@@ -1,5 +1,5 @@
 
-import "../components/Footer.css";
+import "../assets/styles/Footer.css";
 import Logo from "../assets/sneakology.svg";
 
 const Footer = () => {

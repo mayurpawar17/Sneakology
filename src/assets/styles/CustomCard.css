@@ -1,0 +1,57 @@
+
+.card-container {
+  width: 230px; /* Default width for desktop */
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  cursor: pointer;
+  margin: 0 auto; /* Center the card */
+  transition: all 0.3s ease; /* Smooth transitions */
+}
+
+.card-img {
+  width: 100%; /* Make image responsive within the container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 12px;
+  object-fit: cover; /* Ensure the image covers the container */
+}
+
+.shoes-title {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 1rem; /* Default font size for desktop */
+  text-align: center;
+  margin: 5% 4%;
+  transition: all 0.3s ease; /* Smooth transitions */
+}
+
+/* Mobile screen (up to 480px) */
+@media (max-width: 480px) {
+  .card-container {
+    width: 90%; /* Take up more width on smaller screens */
+  }
+  .card-img {
+    width: 100%; /* Ensure the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .shoes-title {
+    font-size: 0.8rem; /* Smaller font size for mobile */
+    margin: 3% 2%; /* Adjust margin for better spacing */
+  }
+}
+
+/* Tablet screen (481px to 1024px) */
+@media (min-width: 481px) and (max-width: 1024px) {
+  .card-container {
+    width: 45%; /* Adjust width for tablets */
+  }
+  .card-img {
+    width: 100%; /* Ensure the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .shoes-title {
+    font-size: 0.9rem; /* Slightly larger font size for tablets */
+    margin: 4% 3%; /* Adjust margin for better spacing */
+  }
+}
+

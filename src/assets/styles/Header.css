@@ -1,0 +1,141 @@
+/* .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+nav{
+    display: flex;
+    gap: 0.2em;
+    padding-right: 1.5%;
+
+}
+nav a{
+    text-decoration: none;
+}
+nav p{
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: black;
+
+
+}
+.logo-container{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0.5%;
+cursor: pointer;
+
+}
+.logo{
+    width: 50px;
+    height: 60px;
+    margin: 0.5%;
+}
+.logo-name{
+    font-size: 1.3rem;
+    font-family: Raleway;
+    font-weight: bolder;
+   
+} */
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0.5%; /* Default padding for desktop */
+  }
+  
+  nav {
+    display: flex;
+    gap: 0.2em; /* Default gap for desktop */
+    padding-right: 1.5%; /* Default padding for desktop */
+  }
+  
+  nav a {
+    text-decoration: none;
+  }
+  
+  nav p {
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    font-size: 1.1em; /* Default font size for desktop */
+    color: black;
+  }
+  
+  .logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5%; /* Default padding for desktop */
+    cursor: pointer;
+  }
+  
+  .logo {
+    width: 50px; /* Default width for desktop */
+    height: 60px; /* Default height for desktop */
+    margin: 0.5%; /* Default margin for desktop */
+  }
+  
+  .logo-name {
+    font-size: 1.3rem; /* Default font size for desktop */
+    font-family: Raleway, sans-serif;
+    font-weight: bolder;
+  }
+  
+  /* Mobile screen (up to 480px) */
+  @media (max-width: 480px) {
+    .header {
+      padding: 1%; /* Increase padding for better spacing on mobile */
+    }
+    nav {
+      gap: 0.1em; /* Reduce gap for better spacing on mobile */
+      padding-right: 1%; /* Adjust padding for better spacing */
+    }
+    nav p {
+      font-size: 0.9em; /* Smaller font size for mobile */
+    }
+    .logo {
+      width: 40px; /* Reduce logo size for mobile */
+      height: 50px; /* Reduce logo size for mobile */
+    }
+    .logo-name {
+      font-size: 1rem; /* Smaller font size for mobile */
+    }
+  }
+  
+  /* Tablet screen (481px to 1024px) */
+  @media (min-width: 481px) and (max-width: 1024px) {
+    .header {
+      padding: 0.75%; /* Adjust padding for tablets */
+    }
+    nav {
+      gap: 0.15em; /* Adjust gap for tablets */
+      padding-right: 1.25%; /* Adjust padding for tablets */
+    }
+    nav p {
+      font-size: 1em; /* Slightly smaller font size for tablets */
+    }
+    .logo {
+      width: 45px; /* Adjust logo size for tablets */
+      height: 55px; /* Adjust logo size for tablets */
+    }
+    .logo-name {
+      font-size: 1.15rem; /* Slightly smaller font size for tablets */
+    }
+  }
