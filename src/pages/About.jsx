@@ -21,7 +21,7 @@ const About = () => {
             and in-depth stories behind iconic kicks.
           </p>
         </div>
-        <h4>Owned by Mayur | Celebrating Sneaker Culture Since 2025</h4>
+
         <h5>
           Note: Sneakology is currently not a responsive web app, but we’re
           working hard to make it fully responsive in the near future. Stay
