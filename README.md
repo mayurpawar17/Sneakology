@@ -3,6 +3,8 @@
 ![Sneakology Demo](https://github.com/mayurpawar17/Sneakology/blob/master/sneakology.gif?raw=true)
 *Demo of key website features - product browsing, cart functionality, and checkout process*
 
+🌐 **Website is Live!** [https://sneakology.netlify.app]
+
 ## 🚀 Features
 - **Product Catalog**: Browse trending sneakers with filters
 - **Shopping Cart**: Add/remove items, adjust quantities
@@ -21,7 +23,7 @@
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/sneakology.git
+git clone https://github.com/mayurpawar17/Sneakology.git
 cd sneakology
 ```
 
