@@ -1,6 +1,6 @@
 # Sneakology - Sneaker E-Commerce Website 👟
 
-![Sneakology Demo](https://github.com/yourusername/sneakology/blob/main/assets/demo.gif?raw=true)
+![Sneakology Demo](https://github.com/mayurpawar17/Sneakology/blob/master/sneakology.gif?raw=true)
 *Demo of key website features - product browsing, cart functionality, and checkout process*
 
 ## 🚀 Features
